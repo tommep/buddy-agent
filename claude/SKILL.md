@@ -1,6 +1,7 @@
 ---
 name: buddy-agent
 description: "Explicit-only two-agent delivery workflow. Use when the user explicitly invokes Buddy Agent and wants each bounded task completed by one fresh worker and independently checked by one fresh reviewer through a correction loop before completion is reported."
+disable-model-invocation: true
 ---
 
 # Buddy Agent
