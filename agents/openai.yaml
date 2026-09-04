@@ -1,0 +1,7 @@
+interface:
+  display_name: "Buddy Agent"
+  short_description: "Worker plus independent reviewer loop"
+  default_prompt: "Use $buddy-agent to complete this task with one worker and one independent reviewer, iterating until both agree."
+
+policy:
+  allow_implicit_invocation: false
